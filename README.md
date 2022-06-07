@@ -12,3 +12,4 @@ this should all look very familiar.
 
 
 
+[![.NET](https://github.com/kirillosgeorge/task-2/actions/workflows/dotnet.yml/badge.svg)](https://github.com/kirillosgeorge/task-2/actions/workflows/dotnet.yml)
