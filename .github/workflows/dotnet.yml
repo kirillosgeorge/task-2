@@ -39,4 +39,4 @@ jobs:
         context: . 
         file: ./Dockerfile
         push: true
-        tags: ${{ secret.DOCKER_USERNAME }}/sample:latest, ${{ secret.DOCKER_USERNAME }}/sample:${{ github.run_number }}
+        tags: ${{ secrets.DOCKER_USERNAME }}/sample:latest, ${{ secrets.DOCKER_USERNAME }}/sample:${{ github.run_number }}
